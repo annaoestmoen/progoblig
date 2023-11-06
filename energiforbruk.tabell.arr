@@ -36,6 +36,7 @@ transformed-table
 #funksjon som beregner energiforbruket for bil
 fun bil():
   energy-per-day = ((50/10) * (10))
+#(distance-per-day / distance-per-unit-of-fuel * energy-per-unit-of-fuel)
   energy-per-day
 end
 
